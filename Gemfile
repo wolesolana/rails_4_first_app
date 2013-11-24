@@ -8,18 +8,10 @@ group :development do
 end
 
 gem 'sass-rails', '4.0.1'
-
 gem 'uglifier', '2.1.1'
-
 gem 'coffee-rails', '4.0.1'
-
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
-
 gem 'jquery-rails', '3.0.4'
-
 gem 'turbolinks', '1.1.1'
-
 gem 'jbuilder', '1.0.2'
 
 group :doc do
@@ -31,7 +23,10 @@ group :production do
 	gem 'rails_12factor', '0.0.2'
 end
 
-rake assets:precompile
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+
+# rake assets:precompile
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
